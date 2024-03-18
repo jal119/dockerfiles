@@ -1,4 +1,4 @@
-FROM python:3.6-alpine as ansible-slim
+FROM python:3.13.0a5-alpine as ansible-slim
 ARG ANSIBLE_VERSION
 ENV ANSIBLE_VERSION=${ANSIBLE_VERSION}
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/latest-stable/community" >> /etc/apk/repositories \
