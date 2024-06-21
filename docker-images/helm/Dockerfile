@@ -1,4 +1,4 @@
-FROM alpine:3.11 as helm
+FROM alpine:3.17 as helm
 ARG HELM_VERSION
 # ENV BASE_URL="https://storage.googleapis.com/kubernetes-helm"
 ENV BASE_URL="https://get.helm.sh" \
